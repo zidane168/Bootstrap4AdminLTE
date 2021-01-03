@@ -873,10 +873,22 @@
                         <!-- /.col -->
                     </div>
                     <!-- /.row -->
+                
+
+                    <div class="row">
+                        <div class="col-sm-4 col-md-2">
+                        <h4 class="text-center">Primary</h4>
+
+                        <div class="color-palette-set">
+                            <div class="bg-primary color-palette"><span>#007bff</span></div>
+                            <div class="bg-primary disabled color-palette"><span>Disabled</span></div>
+                        </div>
+                        </div>
+                    </div>
                 </div>
+
             </section>
         </div> <!-- end chart -->
-
 
 
 
@@ -894,7 +906,6 @@
         <!-- Theme js -->
         <script src="js/adminlte.js"></script>
        
-    
         <script>
             $(function () {
                 /*
@@ -905,7 +916,8 @@
                 // be fetched from a server
                 var data        = [],
                     totalPoints = 100
-          
+                data        = [];                
+                totalPoints =  100;
                 function getRandomData() {
             
                     if (data.length > 0) {
